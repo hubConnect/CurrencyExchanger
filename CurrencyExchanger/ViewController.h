@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+<NSURLConnectionDataDelegate,NSXMLParserDelegate>
+- (IBAction)Launch:(id)sender;
 
 @end

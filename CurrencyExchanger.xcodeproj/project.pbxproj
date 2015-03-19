@@ -21,6 +21,32 @@
 		7F828F0118B1D0B6008CC652 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F828EE318B1D0B6008CC652 /* UIKit.framework */; };
 		7F828F0918B1D0B6008CC652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F828F0718B1D0B6008CC652 /* InfoPlist.strings */; };
 		7F828F0B18B1D0B6008CC652 /* CurrencyExchangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F828F0A18B1D0B6008CC652 /* CurrencyExchangerTests.m */; };
+		7F828F1618B1D1CC008CC652 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F828F1518B1D1CC008CC652 /* Currency.m */; };
+		7FA7914118B596B800D575DD /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA7914018B596B800D575DD /* Transaction.m */; };
+		7FA7914418B5FA6400D575DD /* ContainerDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA7914318B5FA6400D575DD /* ContainerDetail.m */; };
+		7FA7914718B5FD4000D575DD /* EmbedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA7914618B5FD4000D575DD /* EmbedSegue.m */; };
+		7FA7914D18BC65F700D575DD /* newworldbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7914C18BC65F700D575DD /* newworldbg.png */; };
+		7FA7914F18BC6EA600D575DD /* TopCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7914E18BC6EA600D575DD /* TopCell.png */; };
+		7FA7915118BC6EAE00D575DD /* MiddleCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915018BC6EAE00D575DD /* MiddleCell.png */; };
+		7FA7915318BC6EB600D575DD /* BottomCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915218BC6EB600D575DD /* BottomCell.png */; };
+		7FA7916418BEA1CF00D575DD /* DKK.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915418BEA1CF00D575DD /* DKK.png */; };
+		7FA7916518BEA1CF00D575DD /* THB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915518BEA1CF00D575DD /* THB.png */; };
+		7FA7916618BEA1CF00D575DD /* SGD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915618BEA1CF00D575DD /* SGD.png */; };
+		7FA7916718BEA1CF00D575DD /* GBP.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915718BEA1CF00D575DD /* GBP.png */; };
+		7FA7916818BEA1CF00D575DD /* SEK.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915818BEA1CF00D575DD /* SEK.png */; };
+		7FA7916918BEA1CF00D575DD /* CAD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915918BEA1CF00D575DD /* CAD.png */; };
+		7FA7916A18BEA1CF00D575DD /* AUD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915A18BEA1CF00D575DD /* AUD.png */; };
+		7FA7916B18BEA1CF00D575DD /* PHP.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915B18BEA1CF00D575DD /* PHP.png */; };
+		7FA7916C18BEA1CF00D575DD /* JPY.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915C18BEA1CF00D575DD /* JPY.png */; };
+		7FA7916D18BEA1CF00D575DD /* NZD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915D18BEA1CF00D575DD /* NZD.png */; };
+		7FA7916E18BEA1CF00D575DD /* EUR.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915E18BEA1CF00D575DD /* EUR.png */; };
+		7FA7916F18BEA1CF00D575DD /* HKD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7915F18BEA1CF00D575DD /* HKD.png */; };
+		7FA7917018BEA1CF00D575DD /* USD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7916018BEA1CF00D575DD /* USD.png */; };
+		7FA7917118BEA1CF00D575DD /* ZAR.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7916118BEA1CF00D575DD /* ZAR.png */; };
+		7FA7917218BEA1CF00D575DD /* CHF.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7916218BEA1CF00D575DD /* CHF.png */; };
+		7FA7917318BEA1CF00D575DD /* MXN.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA7916318BEA1CF00D575DD /* MXN.png */; };
+		7FA7917618BEA23100D575DD /* CurrencyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA7917518BEA23100D575DD /* CurrencyCell.m */; };
+		7FA8634918B2123600BF445B /* ConversionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8634818B2123600BF445B /* ConversionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +79,38 @@
 		7F828F0618B1D0B6008CC652 /* CurrencyExchangerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyExchangerTests-Info.plist"; sourceTree = "<group>"; };
 		7F828F0818B1D0B6008CC652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F828F0A18B1D0B6008CC652 /* CurrencyExchangerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyExchangerTests.m; sourceTree = "<group>"; };
+		7F828F1418B1D1CC008CC652 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		7F828F1518B1D1CC008CC652 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		7FA7913F18B596B800D575DD /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		7FA7914018B596B800D575DD /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		7FA7914218B5FA6400D575DD /* ContainerDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerDetail.h; sourceTree = "<group>"; };
+		7FA7914318B5FA6400D575DD /* ContainerDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerDetail.m; sourceTree = "<group>"; };
+		7FA7914518B5FD4000D575DD /* EmbedSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedSegue.h; sourceTree = "<group>"; };
+		7FA7914618B5FD4000D575DD /* EmbedSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbedSegue.m; sourceTree = "<group>"; };
+		7FA7914C18BC65F700D575DD /* newworldbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newworldbg.png; path = CurrencyExchangerTests/newworldbg.png; sourceTree = SOURCE_ROOT; };
+		7FA7914E18BC6EA600D575DD /* TopCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopCell.png; sourceTree = "<group>"; };
+		7FA7915018BC6EAE00D575DD /* MiddleCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MiddleCell.png; sourceTree = "<group>"; };
+		7FA7915218BC6EB600D575DD /* BottomCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BottomCell.png; sourceTree = "<group>"; };
+		7FA7915418BEA1CF00D575DD /* DKK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DKK.png; sourceTree = "<group>"; };
+		7FA7915518BEA1CF00D575DD /* THB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THB.png; sourceTree = "<group>"; };
+		7FA7915618BEA1CF00D575DD /* SGD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SGD.png; sourceTree = "<group>"; };
+		7FA7915718BEA1CF00D575DD /* GBP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GBP.png; sourceTree = "<group>"; };
+		7FA7915818BEA1CF00D575DD /* SEK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SEK.png; sourceTree = "<group>"; };
+		7FA7915918BEA1CF00D575DD /* CAD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAD.png; sourceTree = "<group>"; };
+		7FA7915A18BEA1CF00D575DD /* AUD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AUD.png; sourceTree = "<group>"; };
+		7FA7915B18BEA1CF00D575DD /* PHP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PHP.png; sourceTree = "<group>"; };
+		7FA7915C18BEA1CF00D575DD /* JPY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JPY.png; sourceTree = "<group>"; };
+		7FA7915D18BEA1CF00D575DD /* NZD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NZD.png; sourceTree = "<group>"; };
+		7FA7915E18BEA1CF00D575DD /* EUR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EUR.png; sourceTree = "<group>"; };
+		7FA7915F18BEA1CF00D575DD /* HKD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HKD.png; sourceTree = "<group>"; };
+		7FA7916018BEA1CF00D575DD /* USD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USD.png; sourceTree = "<group>"; };
+		7FA7916118BEA1CF00D575DD /* ZAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZAR.png; sourceTree = "<group>"; };
+		7FA7916218BEA1CF00D575DD /* CHF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHF.png; sourceTree = "<group>"; };
+		7FA7916318BEA1CF00D575DD /* MXN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MXN.png; sourceTree = "<group>"; };
+		7FA7917418BEA23100D575DD /* CurrencyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyCell.h; sourceTree = "<group>"; };
+		7FA7917518BEA23100D575DD /* CurrencyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyCell.m; sourceTree = "<group>"; };
+		7FA8634718B2123600BF445B /* ConversionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionController.h; sourceTree = "<group>"; };
+		7FA8634818B2123600BF445B /* ConversionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +176,20 @@
 				7F828EF418B1D0B6008CC652 /* ViewController.h */,
 				7F828EF518B1D0B6008CC652 /* ViewController.m */,
 				7F828EF718B1D0B6008CC652 /* Images.xcassets */,
+				7FA7914C18BC65F700D575DD /* newworldbg.png */,
 				7F828EE618B1D0B6008CC652 /* Supporting Files */,
+				7F828F1418B1D1CC008CC652 /* Currency.h */,
+				7F828F1518B1D1CC008CC652 /* Currency.m */,
+				7FA8634718B2123600BF445B /* ConversionController.h */,
+				7FA8634818B2123600BF445B /* ConversionController.m */,
+				7FA7913F18B596B800D575DD /* Transaction.h */,
+				7FA7914018B596B800D575DD /* Transaction.m */,
+				7FA7914218B5FA6400D575DD /* ContainerDetail.h */,
+				7FA7914318B5FA6400D575DD /* ContainerDetail.m */,
+				7FA7914518B5FD4000D575DD /* EmbedSegue.h */,
+				7FA7914618B5FD4000D575DD /* EmbedSegue.m */,
+				7FA7917418BEA23100D575DD /* CurrencyCell.h */,
+				7FA7917518BEA23100D575DD /* CurrencyCell.m */,
 			);
 			path = CurrencyExchanger;
 			sourceTree = "<group>";
@@ -126,6 +197,25 @@
 		7F828EE618B1D0B6008CC652 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7FA7915418BEA1CF00D575DD /* DKK.png */,
+				7FA7915518BEA1CF00D575DD /* THB.png */,
+				7FA7915618BEA1CF00D575DD /* SGD.png */,
+				7FA7915718BEA1CF00D575DD /* GBP.png */,
+				7FA7915818BEA1CF00D575DD /* SEK.png */,
+				7FA7915918BEA1CF00D575DD /* CAD.png */,
+				7FA7915A18BEA1CF00D575DD /* AUD.png */,
+				7FA7915B18BEA1CF00D575DD /* PHP.png */,
+				7FA7915C18BEA1CF00D575DD /* JPY.png */,
+				7FA7915D18BEA1CF00D575DD /* NZD.png */,
+				7FA7915E18BEA1CF00D575DD /* EUR.png */,
+				7FA7915F18BEA1CF00D575DD /* HKD.png */,
+				7FA7916018BEA1CF00D575DD /* USD.png */,
+				7FA7916118BEA1CF00D575DD /* ZAR.png */,
+				7FA7916218BEA1CF00D575DD /* CHF.png */,
+				7FA7916318BEA1CF00D575DD /* MXN.png */,
+				7FA7914E18BC6EA600D575DD /* TopCell.png */,
+				7FA7915218BC6EB600D575DD /* BottomCell.png */,
+				7FA7915018BC6EAE00D575DD /* MiddleCell.png */,
 				7F828EE718B1D0B6008CC652 /* CurrencyExchanger-Info.plist */,
 				7F828EE818B1D0B6008CC652 /* InfoPlist.strings */,
 				7F828EEB18B1D0B6008CC652 /* main.m */,
@@ -228,9 +318,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA7916518BEA1CF00D575DD /* THB.png in Resources */,
+				7FA7916418BEA1CF00D575DD /* DKK.png in Resources */,
+				7FA7915318BC6EB600D575DD /* BottomCell.png in Resources */,
+				7FA7917218BEA1CF00D575DD /* CHF.png in Resources */,
+				7FA7916F18BEA1CF00D575DD /* HKD.png in Resources */,
+				7FA7916618BEA1CF00D575DD /* SGD.png in Resources */,
+				7FA7916B18BEA1CF00D575DD /* PHP.png in Resources */,
+				7FA7917318BEA1CF00D575DD /* MXN.png in Resources */,
 				7F828EF818B1D0B6008CC652 /* Images.xcassets in Resources */,
+				7FA7916D18BEA1CF00D575DD /* NZD.png in Resources */,
+				7FA7916C18BEA1CF00D575DD /* JPY.png in Resources */,
+				7FA7917018BEA1CF00D575DD /* USD.png in Resources */,
+				7FA7916A18BEA1CF00D575DD /* AUD.png in Resources */,
+				7FA7916E18BEA1CF00D575DD /* EUR.png in Resources */,
+				7FA7916718BEA1CF00D575DD /* GBP.png in Resources */,
+				7FA7916918BEA1CF00D575DD /* CAD.png in Resources */,
+				7FA7914F18BC6EA600D575DD /* TopCell.png in Resources */,
 				7F828EEA18B1D0B6008CC652 /* InfoPlist.strings in Resources */,
+				7FA7916818BEA1CF00D575DD /* SEK.png in Resources */,
 				7F828EF318B1D0B6008CC652 /* Main.storyboard in Resources */,
+				7FA7915118BC6EAE00D575DD /* MiddleCell.png in Resources */,
+				7FA7917118BEA1CF00D575DD /* ZAR.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA7914D18BC65F700D575DD /* newworldbg.png in Resources */,
 				7F828F0918B1D0B6008CC652 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +359,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA7914118B596B800D575DD /* Transaction.m in Sources */,
+				7F828F1618B1D1CC008CC652 /* Currency.m in Sources */,
 				7F828EF618B1D0B6008CC652 /* ViewController.m in Sources */,
+				7FA7914418B5FA6400D575DD /* ContainerDetail.m in Sources */,
 				7F828EF018B1D0B6008CC652 /* AppDelegate.m in Sources */,
+				7FA7917618BEA23100D575DD /* CurrencyCell.m in Sources */,
+				7FA7914718B5FD4000D575DD /* EmbedSegue.m in Sources */,
+				7FA8634918B2123600BF445B /* ConversionController.m in Sources */,
 				7F828EEC18B1D0B6008CC652 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +576,7 @@
 				7F828F1018B1D0B6008CC652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F828F1118B1D0B6008CC652 /* Build configuration list for PBXNativeTarget "CurrencyExchangerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +585,7 @@
 				7F828F1318B1D0B6008CC652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

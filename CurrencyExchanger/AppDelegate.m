@@ -7,15 +7,40 @@
 //
 
 #import "AppDelegate.h"
+#import "Currency.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    if (!self.listOfCurrencies) {
+        self.listOfCurrencies = [[NSMutableArray alloc] init];
+    }
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"AUD" andName:@"Australian Dollar"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"CAD" andName:@"Canadian Dollar"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"CHF" andName:@"Swiss Frank"]];
+    
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"DKK" andName:@"Danish Krone"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"EUR" andName:@"Euro"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"GBP" andName:@"Pound Sterling"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"HKD" andName:@"Hong Kong Dollar"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"JPY" andName:@"Japanese Yen"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"MXN" andName:@"Mexican Peso"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"NZD" andName:@"New Zealand Dollar"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"PHP" andName:@"Philippine Peso"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"SEK" andName:@"Swedish Krona"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"SGD" andName:@"Singapore Dollar"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"THB" andName:@"Thailand Baht"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"USD" andName:@"US Dollar"]];
+    [self.listOfCurrencies addObject:[[Currency alloc] initWithAbbrv:@"ZAR" andName:@"South African Rand"]];
+
+
+    NSLog(@"List of curr %d",self.listOfCurrencies.count);
+    
+    
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
